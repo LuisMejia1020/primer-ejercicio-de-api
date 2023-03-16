@@ -1,0 +1,13 @@
+
+<h1>Bienvenido al pokedex</h1>
+<h2>tenemos informacion de {{conteo}}</h2>
+<p>a continuacion los detalles de los primeros{{cantidadMostrar}}pokemon</p>
+<div>
+    <label for="cantidadMostrar">Cantidad a mostrar</label>
+    <input type="number" id="cantidadMostrar" [(ngModel)]="cantidadMostrar">
+    <button (click)="actualizarInformacion()">Actualizar</button>
+</div>
+<div *ngIf="resumenPokemon">
+    <app-pokemon *ngFor="let resumen of resumenPokemon" [resumenPokemon]="resumen" ></app-pokemon>
+</div>
+

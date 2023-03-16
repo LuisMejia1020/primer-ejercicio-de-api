@@ -1,0 +1,23 @@
+{
+  "name": "primer-ejercicio-de-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nuevaAplicacion":"ng new my-app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisMejia1020/primer-ejercicio-de-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisMejia1020/primer-ejercicio-de-api/issues"
+  },
+  "homepage": "https://github.com/LuisMejia1020/primer-ejercicio-de-api#readme",
+  "dependencies": {
+    "@angular/cli": "^15.2.3"
+  }
+}
